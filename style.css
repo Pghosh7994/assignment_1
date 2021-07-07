@@ -85,3 +85,99 @@ section{
 #about-content{
     padding-top: 40px;
 }
+#about-content p{
+    color: rgb(61, 59, 59);
+}
+
+/* section 3 Start*/
+#recipes{
+    margin-top: -550px;
+    margin-left: 430px;
+    width: 500px;
+    text-align: center;
+    /* padding-top: -1700px; */
+}
+#recipes p{
+    color: rgb(61, 59, 59);
+}
+#card-recipes{
+    margin-top: -400px ;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+}
+  .h3{
+    font-size: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 70px;
+    align-items: stretch;
+}
+
+.grid .card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.grid .card img {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.grid .card-text {
+    padding: 20px;
+}
+
+#healthy-food{
+    background-image: url("images/shapes/Frame 58.jpg");
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    padding-top: 50px; 
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+#healthy-img{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#healthy-img img{
+
+    height: 450px;
+    width: 330px;
+    padding-left: 90px;
+
+}
+#healthy-content{
+
+    padding-top: 80px;
+}
+#healthy-content p{
+    color: rgb(61, 59, 59);
+}
+#diet{
+    text-align: center;
+}
+#dite p{
+    color: rgb(58, 53, 53);
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(151, 139, 139);
+    margin-top: -250px;
+    padding-top: 50px;
+    width: 100%;
+}
+footer p{
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
